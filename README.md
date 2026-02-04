@@ -141,16 +141,6 @@ Then restart VS Code.
 python src/my_script.py
 ```
 
-### Verifying PyTorch Installation
-
-After bootstrap setup completes, verify that PyTorch is working correctly:
-
-```bash
-python scripts/test-pytorch.py
-```
-
-This script tests PyTorch functionality, CUDA availability (if applicable), tensor operations, and autograd. All tests should pass with a green checkmark.
-
 ### Tests
 
 ```bash
@@ -165,16 +155,3 @@ With GitHub Copilot installed, you can:
 - Use suggestions as you type code
 - Ask questions about your code in the Copilot Chat panel
 
-## Course Resources
-
-- **Development Environment Guide:** See the course notebook on "Development Environments"
-- **Python Setup:** Refer to "Setting Up Your Development Environment" section
-- **Course Notebooks:** Access course materials through the main course website
-
-## Questions or Issues?
-
-Refer to the course's development environment troubleshooting guide, or reach out to course staff during office hours.
-
----
-
-**Happy coding! 🚀**
