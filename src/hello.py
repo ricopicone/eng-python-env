@@ -4,22 +4,43 @@ Hello World example script.
 This is a simple starting point for your project.
 """
 
-import torch
-
-
 def main():
-    """Print a greeting and display PyTorch information."""
-    print("=" * 60)
-    print("Hello from Engineering AI!")
-    print("=" * 60)
-    print()
-    print(f"PyTorch version: {torch.__version__}")
-    print(f"CUDA available: {torch.cuda.is_available()}")
-    print()
-    print("Your development environment is ready!")
-    print("Start editing this file or create new scripts in src/")
-    print("=" * 60)
+    print("Hello, World!")
+    print("Testing to see if the environment is set up correctly by loading libraries ...")
+    try:
+        import numpy as np
+    except ImportError:
+        print("Failed to import numpy.")
+        return
+    try:
+        import matplotlib.pyplot as plt
+    except ImportError:
+        print("Failed to import matplotlib.")
+        return
+    try:
+        import pandas as pd
+    except ImportError:
+        print("Failed to import pandas.")
+        return
+    try:
+        import scipy
+    except ImportError:
+        print("Failed to import scipy.")
+        return
+    try:
+        import sympy as sp
+    except ImportError:
+        print("Failed to import sympy.")
+        return
+    try:
+        import control
+    except ImportError:
+        print("Failed to import control.")
+        return
+    print("All libraries imported successfully!")
+    
 
 
 if __name__ == "__main__":
+    """This runs when the script is executed directly."""
     main()
