@@ -2,22 +2,13 @@
 
 This directory (`src/`) contains your project's Python source code.
 
-Create your modules and packages here. Example:
 
-```python
-# src/main.py
-import torch
-import numpy as np
-
-def hello():
-    print("Engineering AI Project")
-    print(f"PyTorch version: {torch.__version__}")
-
-if __name__ == "__main__":
-    hello()
-```
-
-Run it with:
+There is an example script called `hello.py` in this directory. Run it from the project root with:
 ```bash
-python src/main.py
+python src/hello.py
 ```
+or from within the `src/` directory with:
+```bash
+python hello.py
+```
+This script prints "Hello, World!" and tests importing key libraries to verify that your Python environment is set up correctly.

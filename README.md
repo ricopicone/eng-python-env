@@ -1,6 +1,6 @@
-# Engineering AI Project Template
+# Engineering Python Project Template
 
-This is a GitHub template repository for student projects in **Engineering Artificial Intelligence**. Use this template to create a new repository for your assignments and course projects.
+This is a GitHub template repository for student projects that use a standard Python development environment. Use this template to create a new repository for your assignments and course projects.
 
 ## Getting Started
 
@@ -14,13 +14,13 @@ Before using this template, ensure you have completed the one-time setup:
    - GitHub Copilot (if you have access)
 3. Install `uv` from [https://astral.sh/uv/](https://astral.sh/uv/)
 
-See the course's "Development Environments" guide for detailed setup instructions.
+See the "Development Environments" guide for detailed setup instructions.
 
 ### Creating Your Project Repository
 
 1. Visit this template repository on GitHub
 2. Click "Use this template" → "Create a new repository"
-3. Name your repository (e.g., `eai-assignment-1`)
+3. Name your repository (e.g., `assignment-1`)
 4. Choose Public or Private
 5. Click "Create repository from template"
 6. Clone your new repository locally
