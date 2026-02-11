@@ -11,5 +11,5 @@ dependencies = [
   "matplotlib",
   "pandas",
   "control",
-  "dysys"
+  "dysys>=0.1.9"
 ]
