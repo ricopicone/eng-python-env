@@ -22,6 +22,10 @@
   },
   "terminal.integrated.defaultProfile.linux": "bash",
 
+  "terminal.integrated.env.windows": {
+    "VIRTUAL_ENV": "${workspaceFolder}\\.venv",
+    "PATH": "${workspaceFolder}\\.venv\\Scripts;${env:PATH}"
+  },
   "terminal.integrated.env.osx": {
     "VIRTUAL_ENV": "${workspaceFolder}/.venv",
     "PATH": "${workspaceFolder}/.venv/bin:${env:PATH}"
