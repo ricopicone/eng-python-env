@@ -2,7 +2,10 @@
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
 
   "terminal.integrated.profiles.windows": {
-    "PowerShell": { "source": "PowerShell" },
+    "PowerShell": {
+      "source": "PowerShell",
+      "args": ["-NoExit", "-Command", "&{. '.venv\\Scripts\\activate.ps1'}"]
+    },
     "Git Bash": {
       "path": "${env:ProgramFiles}\\Git\\bin\\bash.exe",
       "args": ["--login", "-i"]
